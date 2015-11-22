@@ -58,3 +58,9 @@ target/
 
 # Virtualenv 
 venv/
+
+# Local Settings
+src/girish_co/settings/dev.py
+
+# [TEMP] Static img
+static/img/
