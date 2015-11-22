@@ -56,6 +56,8 @@ MIDDLEWARE_CLASSES = (
 
     'wagtail.wagtailcore.middleware.SiteMiddleware',
     'wagtail.wagtailredirects.middleware.RedirectMiddleware',
+    
+    'opbeat.contrib.django.middleware.Opbeat404CatchMiddleware',
 )
 
 ROOT_URLCONF = 'girish_co.urls'
